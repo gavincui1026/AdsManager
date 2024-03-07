@@ -71,7 +71,7 @@ class LoginWindow(Tk):
         # 获取用户名和密码
         username = self.Entry_user.get()
         password = self.Entry_password.get()
-        url="http://127.0.0.1:4000/login"
+        url="https://5add-65-94-5-109.ngrok-free.app/login"
         # 判断用户名和密码是否正确
         payload = {
             "username": username,
